@@ -1,0 +1,49 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family: FONT FAMILY, Georgia;
+	color: rgb(255, 255, 255);
+	background: rgb(200, 0, 255)
+}
+
+
+#container {
+	border: 2px solid rgb(0,0,0);
+	background: rgb(255, 0, 238);
+	width: 80%;
+	max-width: 600px;
+	margin: auto;
+	padding: 10px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+a {
+	color: rgb(0, 255, 251);
+}
+
+	a:hover {
+		color: rgb(0, 181, 24);
+	}
+
+
+figcaption, footer {
+	font-size: 0.75em;
+}
