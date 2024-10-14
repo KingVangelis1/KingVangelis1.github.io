@@ -1,0 +1,48 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+html {
+    /* Standard text-settings below */
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+    font-family: 'Georgia','Lucida Console';
+    background: #710fa6;
+    color: #ffffff;
+}
+
+
+#container {
+    border: 2px solid rgb(0,0,0);
+    background: rgb(255, 0, 238);
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+header {
+    font-family: 'Georgia'
+}
+
+h1, h2 {
+    margin: 50px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    padding: 10px;
+}
