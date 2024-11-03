@@ -1,0 +1,119 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin: 0px;
+	padding: 10px;
+	height: 100%;
+}
+
+html {
+	/* Standard text-settings below */
+	font-size: 1em;
+	line-height: 1.4em;
+	
+}
+
+h1 
+{
+	text-align: center;
+}
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+.background-image {
+	background-image: url("C:\Users\PC\Downloads\responsive-website-template-1\responsive-website-template\Droid\The-Best-Droid.jpg");
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: repeat-x;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+
+	z-index: -1;
+	background-size: contain;
+	height: 100vh;
+	margin: 0em;
+}
+
+.background-image-2 {
+	background-image: url("C:\Users\PC\Downloads\responsive-website-template-1\responsive-website-template\Droid\The-Best-Droid.jpg");
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: repeat-x;
+	position: fixed;
+	top: 0;
+	left: 33em;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	background-size: contain;
+	height: 100vh;
+	margin: 0em;
+}
+
+
+.background-image-3 {
+	background-image: url("C:\Users\PC\Downloads\responsive-website-template-1\responsive-website-template\Droid\The-Best-Droid.jpg");
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: repeat-x;
+	position: fixed;
+	top: 0;
+	left: 65em;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	background-size: contain;
+	height: 100vh;
+	margin: 0em;
+}	
+	
+body {
+	margin: 15em;
+	padding: 1em;
+}
+
+section {
+	margin: 5em;
+	padding: 1em;
+	border: 3px solid blue;
+}
+
+#container {
+	width: 1000px;
+}
+
+#NotImportant {
+	background: #faca56;
+	float: left;
+	width: 30%;
+}
+
+#Important {
+	background: #42F0F7;
+	float: right;
+	width: 30%;
+}	
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+	
+	
+} /* closes 1024px+ */
+
+
+
