@@ -20,7 +20,7 @@ h1
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
-background-image {
+.background-image {
 	background-image: url("responsive-website-template-1/responsive-website-template/Droid/The-Best-Droid.jpg");
 	background-size: auto 100%;
 	background-position: center;
