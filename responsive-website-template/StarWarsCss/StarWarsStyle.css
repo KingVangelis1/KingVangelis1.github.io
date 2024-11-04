@@ -22,8 +22,9 @@ h1
 
 background-image {
 	background-image: url("https://KingVangelis1.github.io/responsive-website-template/Droid/The-Best-Droid.jpg");
-	background-size: cover;
+	background-size: auto 100%;
 	background-position: center;
+	background-repeat: repeat-x;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -37,8 +38,9 @@ background-image {
 
 background-image-2 {
 	background-image: url("https://KingVangelis1.github.io/responsive-website-template/Droid/The-Best-Droid.jpg");
-	background-size: cover;
+	background-size: auto 100%;
 	background-position: center;
+	background-repeat: repeat-x;
 	position: fixed;
 	top: 0;
 	left: 33em;
@@ -53,8 +55,9 @@ background-image-2 {
 
 background-image-3 {
 	background-image: url("https://KingVangelis1.github.io/responsive-website-template/Droid/The-Best-Droid.jpg");
-	background-size: cover;
+	background-size: auto 100%;
 	background-position: center;
+	background-repeat: repeat-x;
 	position: fixed;
 	top: 0;
 	left: 65em;
