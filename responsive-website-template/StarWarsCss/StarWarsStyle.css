@@ -20,7 +20,7 @@ h1
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
-background-image {
+.background-image {
 	background-image: url("https://KingVangelis1.github.io/responsive-website-template/Droid/The-Best-Droid.jpg");
 	background-size: auto 100%;
 	background-position: center;
@@ -36,7 +36,7 @@ background-image {
 	margin: 0em;
 }
 
-background-image-2 {
+.background-image-2 {
 	background-image: url("https://KingVangelis1.github.io/responsive-website-template/Droid/The-Best-Droid.jpg");
 	background-size: auto 100%;
 	background-position: center;
@@ -53,7 +53,7 @@ background-image-2 {
 }
 
 
-background-image-3 {
+.background-image-3 {
 	background-image: url("https://KingVangelis1.github.io/responsive-website-template/Droid/The-Best-Droid.jpg");
 	background-size: auto 100%;
 	background-position: center;
