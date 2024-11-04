@@ -21,7 +21,7 @@ h1
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 background-image {
-	background-image: url("responsive-website-template/Droid/The-Best-Droid.jpg");
+	background-image: url('responsive-website-template/Droid/The-Best-Droid.jpg');
 	background-size: cover;
 	background-position: center;
 	position: fixed;
@@ -36,7 +36,7 @@ background-image {
 }
 
 background-image-2 {
-	background-image: url("responsive-website-template/Droid/The-Best-Droid.jpg");
+	background-image: url('responsive-website-template/Droid/The-Best-Droid.jpg');
 	background-size: cover;
 	background-position: center;
 	position: fixed;
@@ -52,7 +52,7 @@ background-image-2 {
 
 
 background-image-3 {
-	background-image: url("responsive-website-template/Droid/The-Best-Droid.jpg");
+	background-image: url('responsive-website-template/Droid/The-Best-Droid.jpg');
 	background-size: cover;
 	background-position: center;
 	position: fixed;
