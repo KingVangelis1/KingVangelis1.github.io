@@ -1,0 +1,119 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 20%;
+	background: #00CCFF;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	
+}
+
+.tuesday {
+	background: black;
+	color: black;
+	font-size:2em;
+	font-family: Impact, Georgia;
+}
+
+#container5 
+{
+	
+	width: 75%;
+	margin: auto;
+}
+
+
+
+#special 
+{
+	background:blue;
+	color:white;
+	padding: 0em;
+}
+
+#special2 
+{
+	
+	background:none;
+	color:black;
+	padding: 20px;
+
+}
+
+#special3 {
+	background: none;
+	color: black;
+	padding: 20px;
+}
+
+#special4 {
+	background: none;
+	color: black;
+	padding: 20px;
+}
+
+h1 {
+	background: none;
+	color: black;
+	padding: 20px;
+}
+
+h2 {
+	background: none;
+	color: black;
+	padding: 20px;
+}
+
+main {
+	background: #27E501;
+}
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+
+	main {
+		display: flex;
+	}
+
+
+	#container5 {
+		display: flex;
+		flex: 1 1;
+	}
+
+
+}
+
+/* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+}
+/* closes 1024px+ */
+
+
+
