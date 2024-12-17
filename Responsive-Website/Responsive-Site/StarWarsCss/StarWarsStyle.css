@@ -1,0 +1,105 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin: 0px;
+	padding: 10px;
+	height: 100%;
+}
+
+html {
+	/* Standard text-settings below */
+	font-size: 1em;
+	line-height: 1.4em;
+	
+}
+
+h1 
+{
+	text-align: center;
+}
+
+main 
+{
+
+}
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+
+body {
+	background: url(../Droid/The-Best-Droid.jpg)no-repeat fixed center;
+	background-size: cover;
+}
+
+section {
+	margin: 5em;
+	padding: 1em;
+	border: 3px solid blue;
+}
+
+#container {
+	width: 1029px;
+}
+
+#NotImportant {
+	background: #faca56;
+	width: 30%;
+	float: left;
+}
+
+#Important {
+	background: #42F0F7;
+	width: 30%;
+	float: right;
+}
+
+footer {
+	clear: both;
+	color: #42F0F7;
+}
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (max-width: 1024px) {
+
+
+	main {
+		display: flex;
+	}
+
+	#NotImportant {
+		float: none
+	}
+
+	#Important {
+		float: none
+	}
+
+}
+
+/* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+	main {
+		display: flex;
+	}
+
+}
+/* closes 1024px+ */
+
+
+
+
